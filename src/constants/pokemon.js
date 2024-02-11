@@ -103,4 +103,14 @@ const backgroundColorByType = {
   shadow: "bg-gray-600",
 };
 
-export { colorByType, backgroundColorByType };
+const colorByStat = {
+  HP: "[&>div]:bg-red-500 bg-slate-100",
+  ATK: "[&>div]:bg-orange-500 bg-slate-100",
+  DEF: "[&>div]:bg-yellow-500 bg-slate-100",
+  SpA: "[&>div]:bg-blue-300 bg-slate-100",
+  undefined: "[&>div]:bg-green-300 bg-slate-100",
+  SPD: "[&>div]:bg-pink-300 bg-slate-100",
+  TOT: "[&>div]:bg-blue-500 bg-blue-300",
+};
+
+export { colorByType, backgroundColorByType, colorByStat };

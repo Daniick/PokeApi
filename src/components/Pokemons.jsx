@@ -43,9 +43,9 @@ export default function Pokemons() {
   }, [pokemonName]);
 
   return (
-    <section className="p-4 py-5">
+    <section className="p-4 py-5 ">
       <form action="">
-        <div className="bg-white p-4 flex rounded-2xl text-lg">
+        <div className="bg-white p-4 flex rounded-2xl text-lg ">
           <input
             type="text"
             autoComplete="off"
